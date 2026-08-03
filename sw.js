@@ -1,4 +1,4 @@
-const CACHE = "apt-native-v1";
+const CACHE = "apt-native-v2";
 const SHELL = [
   "./",
   "./index.html",
