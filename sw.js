@@ -1,4 +1,4 @@
-const CACHE = "apt-native-v12";
+const CACHE = "apt-native-v13";
 const ASSETS = [
   "./",
   "./index.html",
