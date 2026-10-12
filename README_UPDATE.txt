@@ -1,53 +1,40 @@
-STANKO BARBELL CLUB: WEEK 16 WEBSITE CORRECTION
+STANKO BARBELL CLUB: WEEK 17 WEBSITE UPDATE
 
-Upload these two replacement files to the SAME folder as the existing website:
-  index.html
-  sw.js
+Replace both index.html and sw.js in the SAME folder as your existing website.
+Keep the existing manifest and icon/image files. Use these exact filenames.
+Wait for publishing to finish, then reload the website in your usual browser.
+If an older page appears, wait a few seconds, close/reopen the website and reload.
+Look for "Week 17 · Set logging" above the workout.
 
-Use the exact filenames above. Keep the existing manifest and image/icon files.
-This is a website update; no iOS app update is required.
+October 12–18, 2026
+Monday: Legs
+Tuesday: Torso
+Wednesday: Current Runna workout
+Thursday: Mobility + Recovery
+Friday: Arms & Shoulders + Neck/Calves
+Saturday: Current Runna workout
+Sunday: Optional long run + recovery
 
-AFTER UPLOADING
-1. Wait for your website host to finish publishing the changes.
-2. Open the website in the regular browser where your workout logs were saved.
-3. Reload once, allow a few seconds for the cache updater to install, then close
-   and reopen the website. A second reload may be needed for the old cached page.
-4. Look for "Week 16 · Set logging" above the workout. Select John, Mike, or Greg.
-   Back squat should have three working-set rows, each with Reps, Weight, RPE,
-   and a Done checkbox.
+MAIN LIFTS
+Back squat, barbell bench press, and standing overhead press:
+3 working sets of 8–10 reps at RPE 9–9.5 on EVERY working set.
+Complete progressive warm-up sets before working sets; rest 2–3 minutes.
+Choose the load for the higher rep range and target effort. Add load next time
+after all 3 sets reach 10 controlled reps at the target RPE.
 
-There is no need to clear website data or reinstall the home-screen shortcut.
-Keep the same website address and browser to retain existing local entries.
+The accessory prescriptions, supersets, eight direct sets each for biceps and
+triceps on Friday, push-up finisher, GHD sit-ups, toes-to-bar, and Runna days
+carry forward from Week 16.
 
-WHAT IS CORRECTED
-- Reps, weight, RPE, and completion are saved separately for every working set.
-- John, Mike, and Greg have independent set logs. Switch athletes above the day.
-- Entries save as you type. Extra working sets can be added.
-- Older weights and notes remain available. An unambiguous earlier numeric
-  weight appears in set 1, and the original entry is retained below the table.
-  Reps and RPE are left blank when the old entry did not record them.
-- Existing supported structured per-set entries are read without replacing
-  their original fields. Unknown saved fields are also kept when editing.
-- Exercise completion can be marked set by set or with the lift checkbox.
-- PRs, bodyweight, photos, video links, rest timers, and archived workouts remain.
-- Warm-ups, running, and recovery entries keep their simpler logging layout.
-- Week 16 retains the heavier 6-8-rep main lifts at RPE 8-9 and Friday's
-  eight direct biceps sets, eight direct triceps sets, and push-up finisher.
-- Weeks 1-15 retain their original program contents and workout-log indices.
+WEBSITE AND DATA
+Per-set reps, weight, RPE and completion remain independent for John, Mike and
+Greg. Week 17 is appended; Weeks 1–16 keep their original program content and
+storage indices. Existing workout entries, notes, PRs, bodyweight and photos
+remain in the same browser at the same website address.
 
-CACHE UPDATES
-Workout pages load from the server when connected and fall back to the saved
-page offline. The new cache is versioned, replaces only this workout site's old
-page caches, and leaves workout data and photo storage alone. Missing icons no
-longer prevent the update from installing. "Check for updates" is available
-above the workout; a Reload website button appears when a new build is found.
+The cache updater has a new Week 17 build identifier. Connected visits request
+the latest workout page; offline visits use the saved page. Existing workout
+and photo data are separate from the page cache and are retained.
 
-VERIFICATION
-Checked in Chromium: per-set saving and reloads; athlete isolation; extra sets;
-PR recording; layouts at 320px, 390px, and desktop widths; offline page loading;
-update checks; and a real upgrade from the Week 15 service-worker cache while
-retaining older entries, unknown fields, bodyweight, PRs, photos, and unrelated
-browser caches. Also checked that structured legacy sets remain intact on edit
-and that unreadable saved entries are not overwritten.
-
-Build: week16-sets-20261005
+Files: index.html, sw.js, README_UPDATE.txt
+Build: week17-sets-20261012

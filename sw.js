@@ -1,5 +1,5 @@
-const BUILD = "week16-sets-20261005";
-const CACHE = "apt-native-v16-sets-20261005";
+const BUILD = "week17-sets-20261012";
+const CACHE = "apt-native-v17-sets-20261012";
 const ROOT_URL = new URL("./", self.registration.scope).href;
 const INDEX_URL = new URL("./index.html", self.registration.scope).href;
 const ASSETS = ["manifest.json", "apple-touch-icon.png", "icon-192.png", "icon-512.png", "favicon-32.png"];
