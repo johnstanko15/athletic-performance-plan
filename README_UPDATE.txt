@@ -1,5 +1,5 @@
 STANKO BARBELL CLUB: WEEK 18 WEBSITE UPDATE
-October 19–25, 2026 | Build: week18-huberman-20261019
+October 19–25, 2026 | Build: week18-huberman-20261019-r2
 
 INSTALL
 Replace BOTH index.html and sw.js in the same folder as the existing website.
@@ -26,10 +26,15 @@ Schedule A is the PDF's separate 4–8-rep block, to alternate monthly; it is
 not being mixed into this week's Schedule B programming.
 Official source: https://www.hubermanlab.com/newsletter/foundational-fitness-protocol
 
+MONDAY REVISION
+Front squat and RDL each use 3 sets of 8–15 reps at RPE 9–9.5, stopping within
+one clean rep of technical failure. They replace the two band exercises in the
+same workout positions; the rest of Week 18 is retained.
+
 EQUIPMENT ADAPTATIONS
-PDF leg extension -> seated band leg extension, retaining isolated knee extension
+PDF leg extension -> front squat, per your requested change
 PDF hack squat -> available leg press
-PDF leg curl -> band hamstring curl against a securely anchored band
+PDF leg curl -> barbell Romanian deadlift (RDL), per your requested change
 PDF glute-ham raise -> GHD glute-ham raise, assisted as needed
 PDF cable crossover -> retain cable if available; use band crossover otherwise
 PDF seated row/dumbbell row -> chest-supported dumbbell row (PDF dumbbell option)
@@ -39,7 +44,7 @@ PDF tibialis raise -> wall-supported tibialis raise
 PDF dips -> retain with suitable stable dip equipment; close-grip push-ups otherwise
 Sauna/cold facilities are not confirmed: the recovery item contains the full
 source reference and an equipment-free walk/mobility alternative.
-The band-extension, band-curl and push-up substitutions preserve the intended muscle
+The front-squat, RDL and push-up substitutions preserve the intended muscle
 groups but are not identical loading profiles to the machines or dips.
 
 EFFORT
