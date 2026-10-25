@@ -1,83 +1,56 @@
-STANKO BARBELL CLUB: WEEK 18 WEBSITE UPDATE
-October 19–25, 2026 | Build: week18-huberman-20261019-r2
+STANKO BARBELL CLUB: WEEK 19 WEBSITE UPDATE
+October 26–November 1, 2026 | Build: week19-progression-20261026-r2
 
 INSTALL
-Replace BOTH index.html and sw.js in the same folder as the existing website.
-Keep the existing manifest, icons and images. After publishing completes,
-reload, allow a few seconds, then close/reopen the website if the old page
-persists. Look for "Week 18 · Huberman protocol" above the workout.
-Use the same browser and website address to retain existing local entries.
+1. Extract the ZIP. Replace BOTH index.html and sw.js in the same directory
+   as the existing Stanko Barbell Club website.
+2. Keep your existing manifest.json, logos/icons, and other website assets.
+3. Publish both files to the SAME domain/path as before. Do not clear site
+   storage, uninstall the home-screen website, or use a different domain;
+   the existing browser stores workout history locally.
+4. Reopen the site, use Check for updates if necessary, and confirm the
+   Week 19 title. Week 18 and older weeks remain under Archived.
 
-SCHEDULE
-Monday: Legs
-Tuesday: Torso & Neck (moved from the PDF Wednesday slot)
-Wednesday: Recovery / heat-cold (moved from the PDF Tuesday slot)
-Thursday: 4.5-mile fast run, replacing the 35-minute moderate-cardio block
-Friday: Echo bike HIIT, 8 rounds of 20 sec hard / 10 sec rest
-Saturday: Arms, Neck & Calves
-Sunday: Long Zone 2, ideally 60–75 min at conversational effort
+WEEK 19 SCHEDULE
+Monday 26 Oct: Lower strength + GHD sit-ups; front squat and RDL retained.
+Tuesday 27 Oct: Torso push/pull + toes-to-bar; one main chest press.
+Wednesday 28 Oct: Rest/recovery, mobility, optional easy walk/cycle.
+Thursday 29 Oct: Progression run, 5.0 miles running + 30 seconds walking.
+Friday 30 Oct: Arms, shoulders, calves, neck; accessory supersets.
+Saturday 31 Oct: Athletic pull, toes-to-bar + GHD sit-ups, Echo bike sprints.
+Sunday 1 Nov: 45–60-minute easy Zone 2 run (second running day).
 
-SOURCE AND REP SCHEME
-Based on the attached 2022 Huberman Lab Foundational Fitness Protocol PDF.
-Use its Schedule B this week: 2–3 working sets per exercise, 8–15 reps, about
-90 sec rest. Each exercise has an exact 2- or 3-set prescription in the website.
-Lifting days include a 10-minute warm-up and roughly 50–60 min of training.
-Schedule A is the PDF's separate 4–8-rep block, to alternate monthly; it is
-not being mixed into this week's Schedule B programming.
-Official source: https://www.hubermanlab.com/newsletter/foundational-fitness-protocol
+THURSDAY PROGRESSION RUN, IN ORDER
+1. 1.5 miles at conversational pace to warm up.
+2. 1 mile at 7:35 per mile.
+3. 1 mile at 7:15 per mile.
+4. 1 mile at 6:55 per mile.
+5. 30 seconds walking rest after the third paced mile.
+6. 0.5 miles at conversational pace to cool down.
+Total: 5.0 miles of running, plus the short walking recovery.
+The warm-up and cooldown above replace the former time-based run bookends.
 
-MONDAY REVISION
-Front squat and RDL each use 3 sets of 8–15 reps at RPE 9–9.5, stopping within
-one clean rep of technical failure. They replace the two band exercises in the
-same workout positions; the rest of Week 18 is retained.
+INTENSITY AND PACING
+- Main strength lifts: 3x8–10, RPE 9–9.5, rest 2–3 minutes, finish at
+  technical failure or one clean rep short. Heavy lifts are NOT supersetted.
+- Accessories: 2–3x10–20, RPE 9–10 as specified. Transition 15–30 sec
+  between A1/A2 etc., then rest 60–90 sec after both movements.
+- Power work: fast, precise, never to failure. Neck: light RPE 6–7.
+- Saturday Echo bike: 8 rounds of 15 sec hard / 75 sec easy (12 min).
+- Core: GHD sit-ups on Monday and Saturday; toes-to-bar on Tuesday and Saturday.
+- Knee: if the outer knee aches, changes running mechanics, or worsens after
+  running, reduce or stop running and use easy low-impact cardio instead.
 
-EQUIPMENT ADAPTATIONS
-PDF leg extension -> front squat, per your requested change
-PDF hack squat -> available leg press
-PDF leg curl -> barbell Romanian deadlift (RDL), per your requested change
-PDF glute-ham raise -> GHD glute-ham raise, assisted as needed
-PDF cable crossover -> retain cable if available; use band crossover otherwise
-PDF seated row/dumbbell row -> chest-supported dumbbell row (PDF dumbbell option)
-PDF shoulder press -> seated dumbbell shoulder press
-PDF standing/seated calf raises -> dumbbell-loaded versions, same joint patterns
-PDF tibialis raise -> wall-supported tibialis raise
-PDF dips -> retain with suitable stable dip equipment; close-grip push-ups otherwise
-Sauna/cold facilities are not confirmed: the recovery item contains the full
-source reference and an equipment-free walk/mobility alternative.
-The front-squat, RDL and push-up substitutions preserve the intended muscle
-groups but are not identical loading profiles to the machines or dips.
+WEBSITE DATA
+- Week 19 is APPENDED. The original Weeks 1–18 program records and indices
+  are unchanged. Historical workout keys remain apt-<week>-<day>-<item>.
+- Individual athlete logs (John/Mike/Greg), per-set reps/weight/RPE/completion,
+  notes, PRs, bodyweight, photo database, and video links are preserved.
+- Week 19 retains visual superset badges. Saved day logs follow the moved
+  workouts, so entries from before this schedule revision stay accessible on
+  the new workout days. Weeks 1–18 keep their original indices and contents.
+- A new service worker cache version uses network-first HTML with offline
+  fallback, without deleting browser localStorage or IndexedDB.
+- Keep using the SAME website address and browser to access existing data.
 
-EFFORT
-Every working lifting set should end at technical failure or within 1 clean
-rep: about RPE 9–10. Compounds generally stop at RPE 9–9.5 with control intact.
-No forced reps or uncontrolled failed repetitions are required. Increase load
-next time when all sets reach the top of the range with the prescribed form.
-Warm-ups are preparation. Neck flexion/extension use light resistance and keep
-2–3 clean reps in reserve; they are the deliberate exception to failure work.
-Core reps also stop when controlled range or trunk position cannot be held.
-
-SMALL CARRY-OVER AND SOURCE DIFFERENCES
-The source's daily split and muscle-group exercise pairs are retained. Your
-previous GHD sit-ups (Monday) and toes-to-bar (Tuesday) each retain two brief
-sets; these core sets are additions to the PDF. The PDF arms selection gives
-6 direct sets each for biceps/triceps this week, rather than the prior 8-set
-specialization. No extra chest lifts or extra lifting-day cardio are added.
-The older Wednesday/Saturday Runna slots are replaced by the requested PDF
-schedule; Thursday's fast run and Sunday's endurance session are programmed here.
-The PDF also lists a weekly Zone 2 goal of 180–200 minutes. Sunday's 60–75 min
-session alone does not meet that total; the fast run and HIIT should not simply
-be counted as Zone 2. No additional scheduled sessions are added to this outline.
-
-RECOVERY DETAILS
-The PDF heat/cold reference is 20 min sauna + 5 min cold shower/ice bath,
-repeated 3–5 times. Three full rounds total about 75 min. The reference also
-instructs starting slowly. Use only established, tolerable exposure durations,
-starting shorter as necessary; a cold shower is an explicit PDF option.
-Without sauna access, use the listed 20–30 min easy walk plus 10–15 min mobility.
-
-DATA AND WEBSITE
-Week 18 is appended. Weeks 1–17 and their stored item indices are unchanged.
-John/Mike/Greg retain individual reps, weight, RPE and completion for each set.
-Existing notes, PRs, bodyweight and photos remain in the same browser storage.
-The page cache has a new Week 18 build identifier and offline fallback.
-Files: index.html, sw.js, README_UPDATE.txt
+FILES: index.html, sw.js, README_UPDATE.txt

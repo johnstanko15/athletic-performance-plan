@@ -1,5 +1,5 @@
-const BUILD = "week18-huberman-20261019-r2";
-const CACHE = "apt-native-v18-huberman-20261019-r2";
+const BUILD = "week19-progression-20261026-r2";
+const CACHE = "apt-native-v19-progression-20261026-r2";
 const ROOT_URL = new URL("./", self.registration.scope).href;
 const INDEX_URL = new URL("./index.html", self.registration.scope).href;
 const ASSETS = ["manifest.json", "apple-touch-icon.png", "icon-192.png", "icon-512.png", "favicon-32.png"];
