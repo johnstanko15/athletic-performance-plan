@@ -1,56 +1,35 @@
-STANKO BARBELL CLUB: WEEK 19 WEBSITE UPDATE
-October 26–November 1, 2026 | Build: week19-progression-20261026-r2
+STANKO BARBELL CLUB — WEBSITE UPDATE
+11/2 - 11/8, 2026 (Week 20), plus Runna schedules through 11/22
 
-INSTALL
-1. Extract the ZIP. Replace BOTH index.html and sw.js in the same directory
-   as the existing Stanko Barbell Club website.
-2. Keep your existing manifest.json, logos/icons, and other website assets.
-3. Publish both files to the SAME domain/path as before. Do not clear site
-   storage, uninstall the home-screen website, or use a different domain;
-   the existing browser stores workout history locally.
-4. Reopen the site, use Check for updates if necessary, and confirm the
-   Week 19 title. Week 18 and older weeks remain under Archived.
+UPLOAD
+1. Extract this ZIP.
+2. Replace index.html AND sw.js together in the same website folder.
+3. Keep your existing manifest and icon files.
+4. Open the website, tap Check for updates, then Reload if prompted.
+No app update or extra data file is needed. Do not clear website data: that is where browser logs and photos are stored.
 
-WEEK 19 SCHEDULE
-Monday 26 Oct: Lower strength + GHD sit-ups; front squat and RDL retained.
-Tuesday 27 Oct: Torso push/pull + toes-to-bar; one main chest press.
-Wednesday 28 Oct: Rest/recovery, mobility, optional easy walk/cycle.
-Thursday 29 Oct: Progression run, 5.0 miles running + 30 seconds walking.
-Friday 30 Oct: Arms, shoulders, calves, neck; accessory supersets.
-Saturday 31 Oct: Athletic pull, toes-to-bar + GHD sit-ups, Echo bike sprints.
-Sunday 1 Nov: 45–60-minute easy Zone 2 run (second running day).
+NEXT WEEK: NOVEMBER 2–8
+Monday / Leg Day: Back Squat replaces front squat; RDL and existing paired accessories/core remain. Finish: 100 bodyweight squats for time.
+Tuesday / Torso Day: Existing pressing/pulling, supersets, core and light neck work remain. Finish: 75 push-ups for time.
+Wednesday / Easy Run: Runna, 3.25 miles.
+Thursday / Tempo Run: Runna, 3.2 miles total; use Runna for pace and workout segments.
+Friday / Arms / Neck / Calves: Existing shoulder, arm, calf, trap/grip and neck work. Finish: 50 pull-ups for time.
+Saturday / Rest Day: No lifting, HIIT or run; easy mobility optional.
+Sunday / Long Run: Runna, 6.5 miles.
+No Olympic lifts this week. The former athletic/Echo bike session is removed so Saturday is a rest day.
 
-THURSDAY PROGRESSION RUN, IN ORDER
-1. 1.5 miles at conversational pace to warm up.
-2. 1 mile at 7:35 per mile.
-3. 1 mile at 7:15 per mile.
-4. 1 mile at 6:55 per mile.
-5. 30 seconds walking rest after the third paced mile.
-6. 0.5 miles at conversational pace to cool down.
-Total: 5.0 miles of running, plus the short walking recovery.
-The warm-up and cooldown above replace the former time-based run bookends.
+RUNNA CALENDARS LOADED IN ADVANCE
+11/9 - 11/15: Wednesday intervals 3.1 mi; Friday easy 3.25 mi; Sunday long 7 mi.
+11/16 - 11/22: Wednesday easy 3.25 mi; Thursday easy 3.25 mi; Sunday long 7.5 mi, rolling.
+Only run days are preloaded for those two future weeks. Add their lifting plans with the weekly updates. Keep each existing run day's storageDayIndex when expanding a future week so running logs follow the right day.
+Distances and days match the screenshot. Exact tempo/interval splits and paces were not shown; these remain in the Runna app.
 
-INTENSITY AND PACING
-- Main strength lifts: 3x8–10, RPE 9–9.5, rest 2–3 minutes, finish at
-  technical failure or one clean rep short. Heavy lifts are NOT supersetted.
-- Accessories: 2–3x10–20, RPE 9–10 as specified. Transition 15–30 sec
-  between A1/A2 etc., then rest 60–90 sec after both movements.
-- Power work: fast, precise, never to failure. Neck: light RPE 6–7.
-- Saturday Echo bike: 8 rounds of 15 sec hard / 75 sec easy (12 min).
-- Core: GHD sit-ups on Monday and Saturday; toes-to-bar on Tuesday and Saturday.
-- Knee: if the outer knee aches, changes running mechanics, or worsens after
-  running, reduce or stop running and use easy low-impact cardio instead.
-
-WEBSITE DATA
-- Week 19 is APPENDED. The original Weeks 1–18 program records and indices
-  are unchanged. Historical workout keys remain apt-<week>-<day>-<item>.
-- Individual athlete logs (John/Mike/Greg), per-set reps/weight/RPE/completion,
-  notes, PRs, bodyweight, photo database, and video links are preserved.
-- Week 19 retains visual superset badges. Saved day logs follow the moved
-  workouts, so entries from before this schedule revision stay accessible on
-  the new workout days. Weeks 1–18 keep their original indices and contents.
-- A new service worker cache version uses network-first HTML with offline
-  fallback, without deleting browser localStorage or IndexedDB.
-- Keep using the SAME website address and browser to access existing data.
-
-FILES: index.html, sw.js, README_UPDATE.txt
+WEBSITE CHANGES
+- Week tabs display Monday–Sunday date ranges. Older week ranges follow the existing consecutive weekly timeline anchored to Week 16 (10/5–10/11).
+- Day tabs show weekday / focus.
+- Workout dropdowns are named for individual movements or paired supersets; each has its own completion count.
+- Finishers have an athlete-specific stopwatch, total reps, resistance, RPE and editable time. Break up the reps as needed; rest is included in the time. Stop each mini-set at technical failure and use recorded assistance when needed.
+- Standard lifting retains per-set reps / weight / RPE / completion for John, Mike and Greg.
+- Next week's full plan is selected on the first load; future running calendars remain separate date tabs.
+- Weeks 1–19, their storage keys, notes, PRs, bodyweight and photos are retained. No browser data is cleared.
+- HTML and service worker use the same new build identifier and network-first page updates.
